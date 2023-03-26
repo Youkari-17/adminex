@@ -1,0 +1,9 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+  com.springboot.adminex.listener.MyApplicationContextInitializer
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+  com.springboot.adminex.listener.MyApplicationListener
+#Application RunListeners
+org.springframework.boot.SpringApplicationRunListener=\
+  com.springboot.adminex.listener.MySpringApplicationRunListener
